@@ -13,7 +13,6 @@ function View(props) {
     width: "50%",
     marginTop: "10px",
     backgroundColor: "#0ee0d6f2",
-    // marginLeft: "400px",
   };
 
   const handleDeleteButton = () => {

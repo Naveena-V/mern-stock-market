@@ -9,7 +9,7 @@ export const getStocks = (stocks) => {
 export const fetchStocks = () => {
   return function (dispatch) {
     axios
-      .get("/api/stocks")
+      .get("https://stock-app-deploy.herokuapp.com/api/stocks/list")
       .then((response) => {
         const stock = response.data;
         console.log(stock);
@@ -24,7 +24,7 @@ export const fetchStocks = () => {
 export const sendStocks = (stock) => {
   return function (dispatch) {
     axios
-      .post("/api/stocks", stock)
+      .post("https://stock-app-deploy.herokuapp.com/api/stocks", stock)
       .then((response) => {
         console.log(response.data);
       })
@@ -44,7 +44,7 @@ const removeStock = (id) => {
 export const startRemoveStock = (id) => {
   return function (dispatch) {
     axios
-      .delete(`/api/stocks/${id}`)
+      .delete(`https://stock-app-deploy.herokuapp.com/api/stocks/${id}`)
       .then((response) => {
         const id = response.data._id;
         dispatch(removeStock(id));

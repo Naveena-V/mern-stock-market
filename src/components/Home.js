@@ -26,10 +26,6 @@ function Home() {
     }
   };
 
-  // useEffect(() => {
-  //   dispatch(fetchStocks());
-  // }, [data.length]);
-
   return (
     <div>
       <div>

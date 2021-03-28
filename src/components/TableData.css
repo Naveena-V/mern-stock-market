@@ -1,0 +1,107 @@
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 20px;
+  border: none;
+}
+
+.th {
+  border: solid #dddddd;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #dddddd;
+}
+
+.tr:nth-child(even) {
+  background-color: #dddddd;
+  justify-content: center;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 19px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.search {
+  margin: 50px 40%;
+  padding: 10px;
+  border-color: rgb(43, 36, 36);
+}
+
+.divStyle {
+  margin: 50px;
+}
+
+.inputStyle {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.saveButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.tdStyle {
+  background-color: white;
+  margin-left: 0px;
+}
+
+.tdButton {
+  background-color: #4caf50;
+  padding: 12px 18px;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+}
+
+.linkStyle {
+  text-decoration: none;
+}
+
+.deleteButton {
+  background-color: red;
+  padding: 12px 18px;
+  text-decoration: none;
+  border: none;
+  /* display: inline-block; */
+  text-align: center;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+}
+
+.deleteTd {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-decoration: none;
+}
